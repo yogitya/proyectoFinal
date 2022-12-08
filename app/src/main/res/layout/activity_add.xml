@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title3"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_marginBottom="50sp"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Qn1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:layout_marginBottom="2sp"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prelude in C Major BWV 846"
+        android:minHeight="48dp"></EditText>
+
+    <TextView
+        android:id="@+id/txtAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Qn2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:layout_marginBottom="2sp"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="JS Bach"
+        android:minHeight="48dp"></EditText>
+
+    <TextView
+        android:id="@+id/txtDificultad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Qn5"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:layout_marginBottom="2sp"
+        >
+    </TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp">
+        <RadioButton
+            android:id="@+id/btnDificil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Qn6"
+            android:layout_marginTop="5sp">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/btnMedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Qn7"
+            android:layout_marginTop="5sp">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/btnFacil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Qn8"
+            android:layout_marginTop="5sp">
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAddPieza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Qn3"
+        android:layout_marginTop="30sp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnAddWish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Qn4"
+        android:layout_marginTop="20sp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Return"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="10sp"
+        android:layout_gravity="end"
+        >
+    </Button>
+</LinearLayout>

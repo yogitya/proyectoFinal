@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mi Repertorio</string>
+    <string name="Qn">Selecciona una opción</string>
+    <string name="optn1">Piezas aprendidas</string>
+    <string name="optn2">Piezas por aprender</string>
+    <string name="optn3">Agregar Pieza</string>
+    <string name="optn4">Eliminar Pieza</string>
+    <string name="Title1">Mis partituras</string>
+    <string name="Title2">Piezas por aprender</string>
+    <string name="Title3">Añadir nueva pieza</string>
+    <string name="Title4">Eliminar Pieza</string>
+    <string name="Qn1">Nombre de la pieza:</string>
+    <string name="Qn2">Autor:</string>
+    <string name="Qn3">Agregar a lista de piezas completadas</string>
+    <string name="Qn4">Agregar a lista de deseados</string>
+    <string name="Qn5">Dificultad</string>
+    <string name="Qn6">Difícil</string>
+    <string name="Qn7">Medio</string>
+    <string name="Qn8">Fácil</string>
+    <string name="Return">Regresar</string>
+</resources>
